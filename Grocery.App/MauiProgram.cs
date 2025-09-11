@@ -8,7 +8,7 @@ using Grocery.Core.Data.Repositories;
 
 namespace Grocery.App
 {
-    public static class MauiProgram
+    public static class MauiProgram //This is a test comment
     {
         public static MauiApp CreateMauiApp()
         {
