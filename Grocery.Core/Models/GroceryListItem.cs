@@ -2,9 +2,9 @@
 {
     public class GroceryListItem : Model
     {
-        public int GroceryListId {  get; set; }; //Change it to a property
-        public int ProductId {  get; set; };     //Change it to a property
-        public int Amount { get; set; };
+        public int GroceryListId { get; set; } //Change it to a property
+        public int ProductId {  get; set; }     //Change it to a property
+        public int Amount { get; set; }
         public GroceryListItem(int id, int groceryListId, int productId, int amount) : base(id, "")
         {
             //Assigned values to properties
